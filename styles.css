@@ -111,7 +111,7 @@ footer {
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .member-list {
+    .member-list .container {
         flex-direction: column;
     }
 
