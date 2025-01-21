@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="utf-8">
-    <title>CatPhotoApp</title>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Haven Guild</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    <main>
-      <h1>CatPhotoApp</h1>
-      <section>
-        <h2>Cat Photos</h2>
-        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
-        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-      </section>
-      <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
-        </figure>
-      </section>
-      <section>
-        <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <fieldset>
-            <legend>Is your cat an indoor or outdoor cat?</legend>
-            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
-            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
-          </fieldset>
-          <fieldset>
-            <legend>What's your cat's personality?</legend>
-            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
-            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
-            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
-          </fieldset>
-          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-    </main>
+
+    <header>
+        <div class="container">
+            <h1>New Haven Guild</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#members">Members</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Welcome to New Haven</h2>
+            <p>New Haven is a close-knit, friendly guild focused on collaboration, adventure, and growth. We strive to create an inclusive and welcoming environment for all our members.</p>
+        </div>
+    </section>
+
+    <section id="members" class="section">
+        <div class="container">
+            <h2>Our Members</h2>
+            <div class="member-list">
+                <div class="member">
+                    <img src="https://via.placeholder.com/100" alt="Member 1">
+                    <p>Member 1</p>
+                </div>
+                <div class="member">
+                    <img src="https://via.placeholder.com/100" alt="Member 2">
+                    <p>Member 2</p>
+                </div>
+                <div class="member">
+                    <img src="https://via.placeholder.com/100" alt="Member 3">
+                    <p>Member 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="section">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <ul class="event-list">
+                <li><strong>Event 1</strong> - January 25th, 2025</li>
+                <li><strong>Event 2</strong> - February 1st, 2025</li>
+                <li><strong>Event 3</strong> - February 10th, 2025</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For more information, feel free to reach out to us at <a href="mailto:contact@newhaven.com">contact@newhaven.com</a></p>
+        </div>
+    </section>
+
     <footer>
-      <p>
-        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
-      </p>
+        <div class="container">
+            <p>&copy; 2025 New Haven Guild. All rights reserved.</p>
+        </div>
     </footer>
-  </body>
+
+</body>
 </html>
