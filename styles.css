@@ -101,6 +101,12 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
+.event-list img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
 /* Footer */
 footer {
     background-color: #2e3b46;
